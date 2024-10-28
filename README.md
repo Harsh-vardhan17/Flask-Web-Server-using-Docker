@@ -30,3 +30,5 @@ flask_web_server/
 ├── Dockerfile          # Instructions for building the Docker image
 └── README.md           # Project documentation
 
+![image](https://github.com/user-attachments/assets/ec5222d4-63ef-4b9c-81d5-eabaaee1113a)
+
