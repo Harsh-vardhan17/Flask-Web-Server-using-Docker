@@ -1,3 +1,32 @@
 # Flask-Web-Server-using-Docker
 
 ## This project is a simple Flask web server containerized with Docker. The goal is to create a minimal web server application using Flask (a Python web framework) and deploy it in a Docker container. This setup is ideal for beginners looking to understand how Docker works with Flask applications and how to expose applications from containers to be accessible via a browser.
+
+## Project Overview
+
+This project consists of a simple "Hello, World!" web application built with Flask, a lightweight Python web framework. The application is containerized with Docker, which allows it to be run in isolated containers across different environments without worrying about system dependencies.
+
+### Key Features
+
+- A basic Flask application that responds with "Hello, World from Flask!" on the homepage.
+- Dockerized for easy deployment and isolation from the host system.
+- Exposes port 5000 on the local machine to access the application via `localhost:5000` in a web browser.
+
+## Technologies Used
+
+- **Python 3.8+**: Programming language for the web application.
+- **Flask**: Python web framework for building web servers.
+- **Docker**: Containerization tool to package the application and its dependencies.
+
+## Project Structure
+
+The project directory is organized as follows:
+
+```plaintext
+flask_web_server/
+│
+├── app.py              # Main Flask application
+├── requirements.txt    # Python dependencies
+├── Dockerfile          # Instructions for building the Docker image
+└── README.md           # Project documentation
+
