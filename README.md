@@ -29,3 +29,7 @@ Fork the repository.
 Create a new branch for any feature or bug fix.
 Make your changes and commit them.
 Push to your fork and submit a pull request.
+
+## Acknowledgments
+Flask documentation: https://flask.palletsprojects.com/
+Docker documentation: https://docs.docker.com/
