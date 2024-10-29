@@ -9,6 +9,7 @@
 
 This project consists of a simple "Hello, World!" web application built with Flask, a lightweight Python web framework. The application is containerized with Docker, which allows it to be run in isolated containers across different environments without worrying about system dependencies.
 
+
 ### Key Features
 
 - A basic Flask application that responds with "Hello, World from Flask!" on the homepage.
@@ -20,17 +21,11 @@ This project consists of a simple "Hello, World!" web application built with Fla
 - **Python 3.8+**: Programming language for the web application.
 - **Flask**: Python web framework for building web servers.
 - **Docker**: Containerization tool to package the application and its dependencies.
-- 
 
-## Project Structure
+## Contributing
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
 
-The project directory is organized as follows:
-
-```plaintext
-flask_web_server/
-│
-├── app.py              # Main Flask application
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Instructions for building the Docker image
-└── README.md           # Project documentation
-
+Fork the repository.
+Create a new branch for any feature or bug fix.
+Make your changes and commit them.
+Push to your fork and submit a pull request.
